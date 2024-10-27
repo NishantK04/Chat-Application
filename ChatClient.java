@@ -42,7 +42,7 @@ public class ChatClient {
 
     public static void main(String[] args) throws IOException {
         ChatClient client = new ChatClient();
-        client.start("localhost", );  // Connect to  server running on localhost.... port 12345
+        client.start("localhost", 12345);  // Connect to  server running on localhost.... port 12345
     }
 }
 
